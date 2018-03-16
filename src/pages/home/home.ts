@@ -38,11 +38,7 @@ export class HomePage {
 			{"title": "Iron man 2 ", "releaseDate":"2011-08-13"},
 			{"title": "Iron man3", "releaseDate":"2012-06-15"}
 		]
-	}
-
-
-
-	]
+	}]
 
   constructor(public navCtrl: NavController) {
 

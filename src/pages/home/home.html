@@ -5,7 +5,7 @@
 </ion-header>
 
 <ion-content padding>
-<ion-card *ngFor="hero of heroes">
+<ion-card *ngFor="let hero of heroes">
   <ion-item>
     <ion-avatar item-start>
       <img src="{{hero.cover}}">
@@ -21,7 +21,7 @@
       <ul>
         <ng-container *ngFor="let movie of hero.movies">
           <li > <!-- Permet de boucler sur le tableau  -->
-            {{movie.title}}, {{movie.releaseDate | date: 'YYYY' }}
+            {{movie.title}}, {{movie.releaseDate | date: 'yyyy' }}
           </li>
         </ng-container>
       </ul>
