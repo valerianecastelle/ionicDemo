@@ -7,6 +7,7 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+	editorFilter:string = "DC"
 	heroes:any = [{
 		"realname": "Bruce Wayne",
 		"name": "Batman",
