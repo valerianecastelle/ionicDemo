@@ -12,7 +12,7 @@ export class HeroesServiceProvider {
 
 	heroes:any
 
-  constructor(/*public http: HttpClient*/) {
+  constructor(public http: HttpClient) {
     console.log('Hello HeroesServiceProvider Provider');
   }
 
